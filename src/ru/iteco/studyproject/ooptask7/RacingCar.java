@@ -23,4 +23,8 @@ public class RacingCar extends Car{
         super.getInfo();
         System.out.println("Спонсор " + sponsor);
     }
+
+    public String getSponsor() {
+        return sponsor;
+    }
 }

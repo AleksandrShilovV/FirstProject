@@ -1,7 +1,5 @@
 package ru.iteco.studyproject.ooptask7;
 
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         Car racingCar = new RacingCar(250,550,500,"Black", "RedBull");
@@ -13,6 +11,7 @@ public class Main {
         for (Car car : cars) {
             car.gas();
             car.stop();
+            car.sound();
             car.getInfo();
         }
     }

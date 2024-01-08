@@ -22,7 +22,7 @@ public abstract class Car {
 
 
     public void sound(){
-        System.out.println("Sound bi-bip!");
+        System.out.println(this.getClass().getSimpleName() + "Sound bi-bip!");
     }
 
     public abstract void gas();
